@@ -1,5 +1,5 @@
 # [Code @ ParveenBhadooOfficial/Google-Drive-Index](https://github.com/ParveenBhadooOfficial/Google-Drive-Index)
-Decided to start new since cloning the whole repository gets me emails from GitHub about Page Build Warnings, even disabling and removing the stuffs.
+Decided to start new since cloning the whole repository gets me emails from GitHub about Page Build Warnings, even disabling and removing the stuffs. Code is based on v2.0.18-beta.1
 
 ## Code Modified for Personal Use
 Nothing Fancy. Name from DRiVe inDEX. Do not start here if you are making one. Instead, go here:
