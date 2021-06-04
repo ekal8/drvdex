@@ -713,9 +713,9 @@ function file_others(path) {
 <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">DDL Link</span>
+    <span class="input-group-text" style="display: none;" id="">DDL Link</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" style="display: none;" id="dlurl" value="${url}">
 </div>
 	<div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -764,9 +764,9 @@ function file_code(path) {
 <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">DDL Link</span>
+    <span class="input-group-text" style="display: none;" id="">DDL Link</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" style="display: none;" id="dlurl" value="${url}">
 </div>
 	<div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -823,9 +823,9 @@ ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">DDL Link</span>
+    <span class="input-group-text" style="display: none;" id="">DDL Link</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" style="display: none;" id="dlurl" value="${url}">
 </div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
@@ -870,9 +870,9 @@ function file_audio(path) {
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">DDL Link</span>
+    <span class="input-group-text" style="display: none;" id="">DDL Link</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" style="display: none;" id="dlurl" value="${url}">
 </div>
 	<div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -975,9 +975,9 @@ function file_pdf(path) {
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">DDL Link</span>
+    <span class="input-group-text" style="display: none;" id="">DDL Link</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" style="display: none;" id="dlurl" value="${url}">
 </div>
 	<div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
@@ -1060,9 +1060,9 @@ function file_image(path) {
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="">DDL Link</span>
+    <span class="input-group-text" style="display: none;" id="">DDL Link</span>
   </div>
-  <input type="text" class="form-control" id="dlurl" value="${url}">
+  <input type="text" class="form-control" style="display: none;" id="dlurl" value="${url}">
 </div>
 	<div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
